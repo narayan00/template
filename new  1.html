@@ -1,8 +1,129 @@
-<html>
+<!DOCTYPE html>
 <head>
-<title>Template</title>
+<title>
+ContactUs
+</title>
+<link href="contact1.css" rel="stylesheet"/>
+<link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<scrip type="text/javascript" src="script.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $("a#pull").click(function(){
+      $("ul.nav-menu").toggle();
+  });
+});
+</script>
+
+</script>
 </head>
+
 <body>
-<p>this is for testing</p>
+	<div class="w">
+	<header>
+		<div class="logo">
+		</div>
+		
+			<nav class="clearfix">  
+    <ul class="nav-menu">  
+					<li><a class="active" href="#">HOME</a></li>
+				    <li><a href="#">About Us</a></li>
+				    <li><a href="#">Social Media Influence</a></li>
+				    <li><a href="#">Profit Search</a></li>
+				    <li><a href="#">Brand Buzz</a></li>
+				    <li><a href="#">Analytics</a></li>
+				    <li><a href="#">Experience</a></li>
+				    <li class="active"><a href="#" style ="background-color:red;">Contact Us</a></li>
+				</ul>
+				 <a href="#" id="pull"><img src="images\menu-icone.png"/></a> 
+			</nav>
+	
+	</header>
+	</div>
+
+	<div class="w2">
+
+	<h2 class="con-map" id="cut-width">You can find us here </h2>
+	<p><select id="selectField">
+        <option value="bangalore">Bangalore</option>
+        <option value="mumbai">Mumbai</option>
+    </select>
+</p>
+	<div class="left">
+<h3>Bangalore</h3>
+<p class="letterHeader"><span>By Landline </span><span style="margin-left:17px"> : </span></p>
+<ul id="telephone">
+<li> +91-8026797069</li>
+</ul>
+<p class="letterHeader-1"><span>By Mobile </span><span style="margin-left:25px"> : </span></p>
+<ul id="telephone-1">
+<li style=" margin-top: -38px;"> +91-9886072724</li>
+</ul>
+<p class="letterHeader"><span class="letter-blore-span">By Letter </span><span style="margin-left: 35px"> : </span></p>
+<ul id="letter-blore">
+<li> #576, 30th Main Road,</li>
+<li> Banashankari 3rd Stage,</li>
+<li> Bangalore-560070</li>
+</ul>
+<p class="letterHeader"><span>By Email </span><span style="margin-left: 37px"> : </span></p>
+<ul id="email" style=" list-style-type: none;">
+<li> info@grape5.com</li>
+</ul>
+<div class="office-hours">
+<h3>Office Opening Hours</h3>
+<p>Monday to Friday : <span>10am to 7pm</span></p>
+<p>Saturday : <span>10am to 2pm</span></p>
+<p>Sunday : <span>Closed</span></p>
+</div>
+</div>
+	<div class="right">
+		<iframe width="550" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/maps?q=grape5&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;ll=12.924704,77.560543&amp;spn=0.006295,0.006295&amp;t=m&amp;iwloc=A&amp;output=embed"></iframe>
+	</div>
+
+
+</div>
+<div class="w3">
+	<h2 class="call-us">
+		Connect to see how Grape5 can help you.</h2>
+		<div class="w33">
+	
+<form>
+
+	<div class="name">
+Name<span>*</span><br><input id="name" type="text" name="firstname">
+</div>
+
+<div class="net">
+Email<span>*</span><br><input id="net" type="text" name="lastname">
+</div>
+
+<div class="contact">
+Your Contact Number<span>*</span><br><input id="contact" type="text" name="firstname">
+</div>
+
+<div class="company">
+Your Company<span>*</span><br> <input id="company" type="text" name="lastname">
+</div>
+
+<div class="requirement">
+Requirements<span>*</span><br> <input id="requirement" type="text" name="lastname">
+</div><br><br>
+
+<div class="number">
+<input id="number"><p> + 8 = 16</p>
+</div>
+<div class="sub">
+<input id="sub" type="submit" value="Send a request">
+</div>
+</form>
+</div>
+</div>
+<footer>
+	<div class="new">
+	<p>You are here <span class="trail-begin"><a href="#" title="Grape5">Home</a></span><img src="http://grape5.com/arrow.png" width="15" height="12" alt="arrow">contact Us</p>
+</div>
+	</footer>
 </body>
 </html>
